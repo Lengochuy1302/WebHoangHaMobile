@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0395f1b80e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/khohang.css">
+    <link rel="shortcut icon" type="" href="img/pngfind.com-design-icon-png-6769242.png">
+    <title>Assigniment-Coder: Lê Ngọc Huy</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="container">
+                <ul class="thanh-nav">
+                    <li class="danh-sach-nav">
+                        <a href="dangnhap.html">Đăng xuất</a>
+                    </li>
+                    <li class="danh-sach-nav">
+                        <a href="#">Tra cứu đơn hàng</a>
+
+                    </li>
+                    <li class="danh-sach-nav">
+                        <a href="#">Tuyển dụng</a>
+                    </li>
+                    <li class="danh-sach-nav">
+                        <a href="#">Hệ thống 66 siêu thị</a>
+                    </li>
+                    <li class="danh-sach-nav">
+                        <a href="#">Trung tâm bảo hành</a>
+                    </li>
+                    <li class="danh-sach-nav">
+                        <a href="#">Sản phẩm đã xem</a>
+                    </li>
+                    <li class="danh-sach-nav">
+                        <a href="#">Giới thiệu</a>
+                    </li>
+                    <li class="danh-sach-nav">
+                        <a href="#">Bản mobile</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="heading">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src=" img/logo-text.png" alt="CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ">
+                    </a>
+                </div>
+
+                <div class="thanh-tim-kiem">
+                    <form>
+                        <div class="border">
+                            <input type="text" placeholder="Nhập tên sản phẩm muốn tìm..." id="ten-san-pham-tim-kiem" /></br>
+                            <button onclick="timKiemSanPham()" type="submit"> <a href="#">Tìm</a> </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="kho-hang">
+                    <div class="item nut-kho-hang">
+                        <a id="btnCheckOrder" href="#">
+                            <span class="icon"><i class="fas fa-truck"></i></span>
+                            <span class="text">Kho hàng</span>
+                        </a>
+                    </div>
+                    <div class="item cart">
+                        <a href="giohang.html"><i class="fas fa-cart-arrow-down"></i> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tools-them-san-pham">
+            <div class="container">
+                <div class="themsanpham">
+                    <button id="nutthem"><a href="#popup2">Thêm sản phẩm</a></button>
+                    <div id="popup2" class="overlay">
+                        <div class="popup" id="popup">
+                            <div class="form" id="from-them">
+                                <p>Thêm Sản Phẩm</p>
+                                </br>
+                                <input type="text" placeholder="Gắn link hình ảnh vào đây..." id="hinh-san-pham" /></br>
+                                <input type="text" placeholder="Nhập tên sản phẩm..." id="ten-san-pham" /></br>
+                                <input type="text" placeholder="Nhập giá khuyến mãi sản phẩm..." id="gia-san-pham" /> </br>
+                                <input type="text" placeholder="Nhập giá gốc sản xuất..." id="khuyen-mai-san-pham" /> </br>
+                                <input type="text" placeholder="Nhập hãng sản xuất..." id="hang-san-pham" /> </br>
+                                <button onclick="hamThemSanPhamMoi()"> <a class="close" href="khohang.html" >Tạo sản phẩm</a> </button>
+                                <button>
+                                    <a class="close" href="#" >Hủy tạo sản phẩm</a>  </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="sua-san-pham">
+            <div id="popup1" class="overlay">
+                <div class="popup" id="popupsua">
+                </div>
+            </div>
+        </div>
+        <div class="hienThiPopUpMuaNgay" id="hienThiPopUpSuaNgay">
+        </div>
+    </header>
+
+
+    <div class="main">
+        <div class="container">
+            <div id="dssp1">
+
+            </div>
+            <div id="baokomua">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/khohang.js"></script>
+    <script src="js/hienthi.js"></script>
+</body>
+
+</html>

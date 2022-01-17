@@ -1,0 +1,221 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    color: #FFF;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+input[type="button"],
+input[type="dangNhap"] {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.khungNenForm {
+    width: 50%;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: #00483e;
+    padding: 5%;
+}
+
+.svgdangnhap {
+    margin-bottom: 5%;
+    margin-left: 28%;
+    width: 250px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 85.5%;
+    padding: 15px 10px 15px;
+    font-size: 17px;
+    background: transparent;
+    border: 3px solid #f1f1f1;
+    border-radius: 15px;
+    outline: none;
+    margin-bottom: 26px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+input[type="text"] {
+    background: url("../images/user.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 500px;
+    background-size: 25px;
+}
+
+input[type="password"] {
+    background: url("../images/password.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 500px;
+    background-size: 25px;
+}
+
+.check a:hover {
+    color: #fcfcfc;
+}
+
+.check label {
+    margin-right: 230px;
+}
+
+.check a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.check {
+    margin-left: -10px;
+}
+
+.dangNhapbtn a {
+    color: rgb(255, 255, 255);
+}
+
+.dangNhapbtn {
+    font-size: 16px;
+    font-weight: bolder;
+    width: 90%;
+    margin-top: 50px;
+    padding: 10px 0px;
+    background-color: #fd6d3400;
+    #f1f1f1;
+    border-radius: 50px;
+    border: 3px solid #ffffff;
+    color: #FFF;
+}
+
+.dangNhapbtn:hover {
+    background-color: #009a82;
+    color: #ffffff;
+}
+
+.dangKybtn {
+    font-size: 16px;
+    font-weight: bolder;
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0px;
+    background-color: #fd6d3400;
+    border: 3px solid #ffffff;
+    color: #FFF;
+    #f1f1f1;
+    border-radius: 50px;
+}
+
+.dangKybtn:hover {
+    background-color: #009a82;
+    color: #ffffff;
+}
+
+::-webkit-input-placeholder {
+    color: #02d1b2;
+}
+
+footer {
+    margin: 100px 0px 20px;
+}
+
+footer p a {
+    color: #000;
+    font-weight: 700;
+}
+
+footer p {
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+footer p a {
+    color: rgb(255, 255, 255);
+}
+
+footer p a:hover {
+    color: #00ccff;
+}
+
+.hienThiPopUpDangKyThanhCong img {
+    width: 30%;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.hienThiPopUpDangKyThanhCong {
+    text-align: center;
+    position: sticky;
+    z-index: 9;
+}
+
+.hienThiPopUpDangKyThanhCong .content {
+    margin: -1250px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px 30px;
+    width: 350px;
+    height: 230px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #009a82;
+    border-width: 0;
+    border: 5px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 485px) {
+    h1 {
+        font-size: 35px;
+        margin: 25px auto;
+        letter-spacing: 4px;
+    }
+    .khungNenForm {
+        width: 70%;
+    }
+    .buttonForm {
+        text-align: center;
+    }
+    .buttonForm p {
+        float: left;
+    }
+    .khungNenForm input[type="text"],
+    .khungNenForm input[type="password"],
+    .khungNenForm input[type="email"] {
+        width: 94%;
+        padding: 13px 8px 13px;
+    }
+    .check label {
+        margin-right: 10px;
+    }
+    .check a {
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .check label {
+        margin-right: 10px;
+    }
+    .check a {
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+.khungNenForm {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}

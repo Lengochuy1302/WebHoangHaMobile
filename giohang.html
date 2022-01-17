@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/0395f1b80e.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/giohang.css">
+    <link rel="shortcut icon" type="" href="img/pngfind.com-design-icon-png-6769242.png">
+    <title>Assigniment-Coder: Lê Ngọc Huy</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="container">
+                <ul class="thanh-nav">
+                    <li class="danh-sach-nav">
+                        <a href="#">Đăng nhập</a>
+                    </li>
+                    <li class="danh-sach-nav">
+                        <a href="#">Tra cứu đơn hàng</a>
+
+                    </li>
+                    <li class="danh-sach-nav">
+                        <a href="#">Tuyển dụng</a>
+                    </li>
+                    <li class="danh-sach-nav">
+                        <a href="#">Hệ thống 66 siêu thị</a>
+                    </li>
+                    <li class="danh-sach-nav">
+                        <a href="#">Trung tâm bảo hành</a>
+                    </li>
+                    <li class="danh-sach-nav">
+                        <a href="#">Sản phẩm đã xem</a>
+                    </li>
+                    <li class="danh-sach-nav">
+                        <a href="#">Giới thiệu</a>
+                    </li>
+                    <li class="danh-sach-nav">
+                        <a href="#">Bản mobile</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="heading">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src=" img/logo-text.png" alt="CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ">
+                    </a>
+                </div>
+
+                <div class="thanh-tim-kiem">
+                    <form>
+                        <div class="border">
+                            <input type="text" placeholder="Nhập tên sản phẩm muốn tìm..." id="ten-san-pham-tim-kiem" /></br>
+                            <button onclick="" type="submit"> <a href="#">Tìm</a> </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="kho-hang">
+                    <div class="item nut-kho-hang">
+                        <a id="btnCheckOrder" href="khohang.html">
+                            <span class="icon"><i class="fas fa-truck"></i></span>
+                            <span class="text">Kho hàng</span>
+                        </a>
+                    </div>
+                    <div class="item cart">
+                        <a style="text-decoration: none; ;" href="giohang.html"><i class="fas fa-cart-arrow-down"></i>  <div style="font-size: 10px; margin-top: 14px;" id ="Soluong-giohang"></div>  </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="camon">
+            <div id="popup3" class="overlay">
+                <div class="popupcamon" id="popupcamonnha">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="giohang">
+
+        <div class="danhsachmua">
+            <div class="container" id="conten">
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Giỏ Hàng</h5>
+
+                        </div>
+                        <div class="modal-body">
+                            <div class="cart-row">
+                                <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                                <span class="cart-price cart-header cart-column">Giá</span>
+                                <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                                <span class="cart-tong cart-header cart-column">Tổng</span>
+                                <span class="cart-chuc-nang cart-header cart-column">Chức năng</span>
+                            </div>
+                            <div class="cart-items">
+                                <div class="productInfor" id="SPDAMUATRONGGIOHANG">
+
+                                </div>
+                                <div class="cart-total">
+                                    <strong class="cart-total-title">Tổng Cộng:</strong>
+                                    <span style="font-size: 20px; margin-right: 20px; color: rgb(255, 0, 0); font-weight: 500
+                                    ;" class="cart-total-price" id="Tong-tien"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="mua" type="button"><a href="#popup3" >
+                        Mua
+                    </a></button>
+            </div>
+        </div>
+
+        <script src="js/giohang.js"></script>
+</body>
+
+</html>
