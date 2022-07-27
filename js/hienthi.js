@@ -405,7 +405,7 @@ function xuatGiaoDienKhachHang(arr, idNode) {
     </div>
     <h2 class="ten ">${arr[i].ten}</h2>
     <p class="gia "> ${hamFormatGiaTien(String(arr[i].gia))}đ</p>
-    <p class="khuyenMai"> <strike>${hamFormatGiaTien(String(arr[i].khuyenMai))}</strike>đ <img src="https://www.vietthuong.vn/vnt_upload/news/09_2017/top_seller_icon_1.png " /></p>
+    <p class="khuyenMai"> <strike>${hamFormatGiaTien(String(arr[i].khuyenMai))}</strike>đ <img src="https://vmsco.vn/wp-content/uploads/2016/09/New-icon-animated.gif" /></p>
     <div class="bodybutton">
         <button class="button " name="button" value="OK" type="button"  onclick="muaNgay('${arr[i].id}')"><a>Mua ngay</a></button></br>
     </div>
