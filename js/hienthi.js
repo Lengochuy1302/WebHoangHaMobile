@@ -1,4 +1,30 @@
-var mang = [];
+var mang = [
+    {
+    gia: "18590000",
+giam: 6000000,
+hang: "Apple",
+hinhAnh: "https://cdn.hoanghamobile.com/i/productlist/dsp/Uploads/2022/03/09/image-removebg-preview-2.png",
+id: "xe7rPAO28VU5Fii",
+khuyenMai: "24590000",
+ten: "Iphone 13",
+    },{
+    gia: "10500000",
+giam: 9499000,
+hang: "Apple",
+hinhAnh: "https://cdn.hoanghamobile.com/i/productlist/dsp/Uploads/2022/04/18/image-removebg-preview-5.png",
+id: "mZj2k20qc79w6Z9",
+khuyenMai: "19999000",
+ten: "Iphon1111",
+    },{
+    gia: "24590000",
+giam: 6000000,
+hang: "Apple",
+hinhAnh: "https://cdn.hoanghamobile.com/i/productlist/dsp/Uploads/2022/03/09/image-removebg-preview-3.png",
+id: "p6nlTOTHb9xBQZs",
+khuyenMai: "30590000",
+ten: "Iphone 13 Pro Max",
+    }
+];
 
 // Get mảng sản phẩm
 mang = JSON.parse(localStorage.getItem('danhSachSanPham'));
